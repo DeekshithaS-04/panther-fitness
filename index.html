@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <title>Panther Fitness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: black;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: #111;
+        }
+
+        header h1 {
+            color: yellow;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        <section class="hero"><div class="overlay"><h2>Unleash Your Inner Beast</h2><p>Train Hard. Stay Fit. Be Strong.</p><button>Join Now</button></div></section>body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: black;
+            color: white;
+        }
+
+        /* NAVBAR */
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            position: sticky;
+            top: 0;
+            backdrop-filter: blur(10px);
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* HERO */
+        .hero {
+            height: 90vh;
+            background: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74') no-repeat center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 45px;
+        }
+
+        .hero button {
+            padding: 12px 25px;
+            background: yellow;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* GLASS CARDS */
+        .card,
+        .plan-card,
+        .trainer-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+        }
+
+        /* SCROLL SMOOTH */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        .card:hover,
+        .plan-card:hover,
+        .trainer-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .services {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .card {
+            display: inline-block;
+            background: #222;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        <style>
+        /* your existing CSS */
+
+        /* ADD BELOW 👇 */
+        .plans {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .plan-card {
+            display: inline-block;
+            background: #222;
+            padding: 20px;
+            margin: 15px;
+            width: 220px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .plan-card:hover {
+            transform: scale(1.08);
+        }
+
+        .plan-card h3 {
+            color: yellow;
+        }
+
+        .plan-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .plan-card li {
+            margin: 10px 0;
+        }
+
+        .plan-card button {
+            padding: 10px 20px;
+            background: yellow;
+            border: none;
+            cursor: pointer;
+        }
+
+        .highlight {
+            border: 2px solid yellow;
+        }
+    </style>
+    </style>
+    <style>
+        /* your old CSS */
+
+        /* ✅ ADD BELOW */
+        .trainers {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .trainer-card {
+            display: inline-block;
+            margin: 15px;
+            background: #222;
+            padding: 15px;
+            border-radius: 12px;
+            width: 220px;
+            transition: 0.3s;
+        }
+
+        .trainer-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .trainer-card h3 {
+            margin-top: 10px;
+            color: yellow;
+        }
+
+        .trainer-card:hover {
+            transform: scale(1.05);
+        }
+
+        .contact {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .contact form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            padding: 12px 20px;
+            background: yellow;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Panther Fitness 🐆</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Plans</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Unleash Your Inner Beast</h2>
+        <p>Train Hard. Stay Fit. Be Strong.</p>
+        <button>Join Now</button>
+    </section>
+
+    <section class="services">
+        <section class="services">
+            ...
+        </section>
+
+        <!-- ADD HERE 👇 -->
+        <section class="plans">
+            <h2>Membership Plans</h2>
+
+            <div class="plan-card">
+                <h3>Basic</h3>
+                <p>₹999 / month</p>
+                <ul>
+                    <li>Gym Access</li>
+                    <li>Cardio</li>
+                </ul>
+                <button>Join Now</button>
+            </div>
+
+            <div class="plan-card highlight">
+                <h3>Pro</h3>
+                <p>₹1999 / month</p>
+                <ul>
+                    <li>All Basic Features</li>
+                    <li>Personal Trainer</li>
+                </ul>
+                <button>Join Now</button>
+            </div>
+
+            <div class="plan-card">
+                <h3>Elite</h3>
+                <p>₹2999 / month</p>
+                <ul>
+                    <li>All Pro Features</li>
+                    <li>Diet Plan</li>
+                </ul>
+                <button>Join Now</button>
+            </div>
+        </section>
+        <section class="plans">
+            ...
+        </section>
+
+        <!-- ✅ ADD TRAINERS HERE -->
+        <section class="trainers">
+            <h2>Our Trainers</h2>
+
+            <div class="trainer-card">
+                <img src="https://images.unsplash.com/photo-1594737625785-cb5a6a3c9c9e">
+                <h3>Rahul Sharma</h3>
+                <p>Strength Coach</p>
+            </div>
+
+            <div class="trainer-card">
+                <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1">
+                <h3>Anjali Mehta</h3>
+                <p>Yoga Trainer</p>
+            </div>
+
+            <div class="trainer-card">
+                <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1">
+                <h3>Arjun Patel</h3>
+                <p>Cardio Expert</p>
+            </div>
+
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <textarea placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <h
